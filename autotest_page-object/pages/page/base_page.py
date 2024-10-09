@@ -1,7 +1,7 @@
 from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException
 import allure
 
-from configuration import *
+from configuration import login, password, timeout
 
 
 class BasePage:
