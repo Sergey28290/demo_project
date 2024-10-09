@@ -1,6 +1,7 @@
 from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException
-from configuration import *
 import allure
+
+from configuration import *
 
 
 class BasePage:

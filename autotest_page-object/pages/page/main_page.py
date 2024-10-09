@@ -1,7 +1,8 @@
-from .base_page import BasePage
-from .locators import SelectionLocators
 from allure_commons.types import AttachmentType
 import allure
+
+from .base_page import BasePage
+from .locators import SelectionLocators
 
 
 class MainPage(BasePage):

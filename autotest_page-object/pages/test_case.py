@@ -1,6 +1,7 @@
-from .page.main_page import MainPage
 import allure
 import pytest
+
+from .page.main_page import MainPage
 
 
 @allure.feature('Тестирование соответствия UI личного кабинета к ТЗ')
