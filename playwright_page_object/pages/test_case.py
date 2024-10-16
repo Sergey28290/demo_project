@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from settings import login_page, login, password, description, data
+from settings import login, password, test_cases, data, base_url
 
 
 @allure.epic("Тесты UI")
